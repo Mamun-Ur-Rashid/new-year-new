@@ -1,3 +1,70 @@
 *{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+/* button */
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 230px;
+
+}
+/* this is header section */
+.header{
+    background: url(../images/banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+    text-align: right;
+    background-repeat: no-repeat;
+}
+.header .header-title, .header-description{
+    margin-right: 230px;
+    margin-left: 845px;
+    text-align: right;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: right;
+    padding-bottom: 24px;
+    padding-top: 160px;
+}
+   
+.header-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 230px;
+    padding-bottom: 32px;
+}
+button{
+    margin-right: 230px;
+}
+/* this is faifure section */
+span {
+    content: "\2713";
+  }
+  .failure-section{
+    display:flex;
+    margin-top: 131px;
+    width: 1072px;
+    margin-left: 216px;
+    margin-right: 322px;
+  }
+  .person-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 340px;
+    margin-bottom: 24px;
+  }
+  .person-description{
+    color: #444343;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
