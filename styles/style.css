@@ -56,6 +56,7 @@ span {
     width: 1072px;
     margin-left: 216px;
     margin-right: 322px;
+    margin-bottom: 130px;
   }
   .person-title{
     font-weight: 700;
@@ -68,3 +69,49 @@ span {
     font-size: 18px;
     margin-bottom: 16px;
   }
+  /* my plane section */
+  .my-plans{
+    display: flex;
+    text-align: center;
+    margin:0 230px;
+    justify-content: space-around;
+  }
+  .plan-titles{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+  }
+  .plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    padding-bottom: 16px;
+  }
+  /* mindset section */
+.mindset{
+  margin: 130px 230px;
+  width: 1140px;
+  height: 300px;
+  background: url(../images/watch.png);
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%);
+}
+.mindset-title{
+  padding: 59px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 40px;
+}
+#btn{
+  color: #005FAC;
+  margin-left: 64px;
+}
+/* footer section */
+.footer{
+  display: flex;
+  background: #151414;
+  width: 1600px;
+  height: 577px;
+}
