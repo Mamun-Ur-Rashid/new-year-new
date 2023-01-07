@@ -95,8 +95,7 @@ span {
   margin: 130px 230px;
   width: 1140px;
   height: 300px;
-  background: url(../images/watch.png);
-  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%);
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%), url(../images/watch.png);
 }
 .mindset-title{
   padding: 59px;
@@ -111,7 +110,54 @@ span {
 /* footer section */
 .footer{
   display: flex;
-  background: #151414;
   width: 1600px;
-  height: 577px;
+  height: 500px;
+  background: #151414;  
+  color: #FFFFFF;
+  justify-content: space-between;
+}
+.future{
+ color: white;
+ width: 485px;
+ padding: 130px;
+}
+.future-title{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.future-description{
+ margin-bottom: 25px;
+}
+.email{
+  margin-bottom: 16px;
+}
+.future .icon{
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.subscribe{
+  width: 350px;
+  padding-top: 130px;
+}
+.subscribe .subscribe-title{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.subscribe .email2{
+  padding: 10px;
+  background: #151414;
+  border-radius: 10px solid white;
+  margin-bottom: 25px;
+  color: #FFFFFF;
+}
+.btn-subscribe{
+  width: 160px;
+  height: 64px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #FFFFFF;
+  background: #005FAC;
 }
